@@ -3,16 +3,19 @@
 }
 
 .main{
-    display:flex;
-    flex-direction: row;
-}
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 100px;
 
+}
+.main2{
+    display:grid;
+    grid-template-columns: 20% 1fr 20%;
+}
 .menu{
     border: 2px solid black;
     margin: 10px;
     padding: 2%;
-    max-width: 20%;
-    min-width: 20px;
 }
 
 .content{
