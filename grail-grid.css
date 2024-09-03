@@ -1,0 +1,42 @@
+.title{
+    text-align: center;
+    grid-column: 1/4;
+    border: 2px solid green;
+}
+
+.main{
+    display:grid;
+    grid-column: min-content 1fr min-content;
+
+}
+
+.menuL{
+    border: 2px solid black;
+    margin: 10px;
+    grid-column: 1 / 2;
+    width: auto;
+    padding: 2%;
+    padding-right: 10px;
+}
+.menuR{
+    border: 2px solid black;
+    margin: 10px;
+    grid-column: 3 / 4;
+    width: auto;
+    padding: 2%;
+    padding-right: 10px;
+}
+.content{
+    border: 2px solid red;
+    margin: 10px;
+    grid-column: 2 / 3;
+    width: 1fr;
+    padding: 2%;
+    
+}
+
+.footer{
+    text-align: center;
+    border: 2px solid blue;
+    grid-column: 1 / 4;
+}
